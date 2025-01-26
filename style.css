@@ -27,6 +27,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   padding: 20px;
+  position: relative;
 }
 
 /* Home Screen */
@@ -55,7 +56,9 @@ body {
 .menu {
   display: flex;
   justify-content: space-around;
-  margin-top: -300px;
+  position: absolute;
+  bottom: 20px; /* Position the menu at the bottom of the watch */
+  width: 100%;
 }
 
 .menu-item {
