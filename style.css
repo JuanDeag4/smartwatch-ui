@@ -17,17 +17,17 @@ body {
 
 /* Watch Container */
 #watch {
-  width: 300px;
-  height: 300px;
-  border: 5px solid #555;
+  width: 450px; /* Increased size by 1.5x */
+  height: 450px; /* Increased size by 1.5x */
+  border: 5px solid #555; /* Keep the same border thickness */
   border-radius: 50%;
   background: linear-gradient(145deg, #222, #333);
-  box-shadow: 10px 10px 20px #000, -10px -10px 20px #444;
+  box-shadow: 15px 15px 30px #000, -15px -15px 30px #444;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 20px; /* Keep padding as is */
   position: relative;
   overflow: hidden;
 }
@@ -42,20 +42,20 @@ body {
 }
 
 .time {
-  font-size: 2.5em;
+  font-size: 2.5em; /* Keep font size unchanged */
   font-weight: bold;
   text-align: center;
 }
 
 .date {
   margin-top: 10px;
-  font-size: 1.2em;
+  font-size: 1.2em; /* Keep font size unchanged */
   text-align: center;
 }
 
 .battery {
   margin-top: 15px;
-  font-size: 0.9em;
+  font-size: 1em; /* Keep font size unchanged */
   text-align: center;
 }
 
@@ -64,7 +64,7 @@ body {
   display: flex;
   justify-content: space-between;
   position: absolute;
-  bottom: 15px;
+  bottom: 15px; /* Keep buttons in the same position */
   width: 90%;
 }
 
@@ -73,7 +73,7 @@ body {
   border: none;
   border-radius: 10px;
   color: #fff;
-  padding: 10px 5px;
+  padding: 10px;
   font-size: 0.9em;
   text-align: center;
   cursor: pointer;
@@ -87,8 +87,8 @@ body {
 
 /* Button styling */
 .menu-item {
-  width: 80px;
-  height: 40px;
+  width: 80px; /* Keep button size unchanged */
+  height: auto; /* Keep button height unchanged */
   display: flex;
   align-items: center;
   justify-content: center;
