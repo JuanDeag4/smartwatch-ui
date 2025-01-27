@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Watch</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="watch">
+    <!-- Clock Screen -->
+    <div id="clockScreen" class="screen active">
+      <div class="time">00:00</div>
+      <div class="date">2024-03-19</div>
+      <div class="buttons">
+        <button onclick="switchScreen('musicScreen')">Music</button>
+        <button onclick="switchScreen('sportsScreen')">Sports</button>
+        <button onclick="switchScreen('settingsScreen')">Settings</button>
+      </div>
+    </div>
+
+    <!-- Music Screen -->
+    <div id="musicScreen" class="screen">
+      <h2>Music</h2>
+      <div class="content">
+        <div class="song">Now Playing: Song 1</div>
+        <div class="controls">
+          <button onclick="previousSong()">⏮️</button>
+          <button>⏯️</button>
+          <button onclick="nextSong()">⏭️</button>
+        </div>
+      </div>
+      <button class="back" onclick="switchScreen('clockScreen')">Back</button>
+    </div>
+
+    <!-- Sports Screen -->
+    <div id="sportsScreen" class="screen">
+      <h2>Sports</h2>
+      <div class="content">
+        <p>Steps: 5,432</p>
+        <p>Calories: 234</p>
+        <p>Distance: 3.2 km</p>
+      </div>
+      <button class="back" onclick="switchScreen('clockScreen')">Back</button>
+    </div>
+
+    <!-- Settings Screen -->
+    <div id="settingsScreen" class="screen">
+      <h2>Settings</h2>
+      <div class="content">
+        <div class="setting">
+          <label>Brightness</label>
+          <input type="range" min="0" max="100" value="50">
+        </div>
+        <div class="setting">
+          <label>Volume</label>
+          <input type="range" min="0" max="100" value="50">
+        </div>
+      </div>
+      <button class="back" onclick="switchScreen('clockScreen')">Back</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
