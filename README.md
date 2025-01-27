@@ -10,7 +10,6 @@ Paprastas interaktyvus išmaniojo laikrodžio vartotojo sąsajos projektas, suku
   
 - **Muzikos grotuvas**
   - Dainų sąrašas
-  - Ankstesnės/kitos dainos valdymas
   - Paprasta muzikos valdymo sąsaja
 
 - **Sporto sekimas**
@@ -49,3 +48,4 @@ arba tiesiog apsilankykite: (https://juandeag4.github.io/smartwatch-ui/)
 
 - Muzikos grotuvas kol kas tik imituoja grojimą
 - Sporto duomenys yra statiniai
+- Niekaip neišėjo pakeisti dainos :(
