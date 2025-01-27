@@ -29,7 +29,7 @@ body {
   align-items: center;
   padding: 20px;
   position: relative;
-  overflow: hidden; /* Ensures everything stays within the circle */
+  overflow: hidden;
 }
 
 /* Home Screen */
@@ -51,18 +51,13 @@ body {
   font-size: 1.2em;
 }
 
-.battery {
-  margin-top: 15px;
-  font-size: 1em;
-}
-
 /* Menu */
 .menu {
   display: flex;
   justify-content: space-around;
-  width: 100%;
   position: absolute;
-  bottom: 10px; /* Positions the menu near the bottom */
+  bottom: 15px;
+  width: 90%; /* Align the buttons properly within the circle */
 }
 
 .menu-item {
@@ -74,24 +69,15 @@ body {
   font-size: 0.9em;
   text-align: center;
   cursor: pointer;
-  transition: background 0.3s;
+  transition: background 0.3s, transform 0.2s;
 }
 
 .menu-item:hover {
   background: #666;
+  transform: scale(1.1);
 }
 
-/* Adjust button size to better fit inside the watch */
+/* Reduce button width for better fit */
 .menu-item {
-  width: 70px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 5px;
-}
-
-/* Add icons next to text (optional) */
-.menu-item img {
-  width: 20px;
-  height: 20px;
+  width: 80px;
 }
