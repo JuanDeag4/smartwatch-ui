@@ -17,9 +17,9 @@ body {
 
 /* Watch Container */
 #watch {
-  width: 700px; /* Increased size by 1.5x */
-  height: 700px; /* Increased size by 1.5x */
-  border: 10px solid #555; /* Keep the same border thickness */
+  width: 400px; /* Increased size by 1.5x */
+  height: 400px; /* Increased size by 1.5x */
+  border: 5px solid #555; /* Keep the same border thickness */
   border-radius: 50%;
   background: linear-gradient(145deg, #222, #333);
   box-shadow: 15px 15px 30px #000, -15px -15px 30px #444;
