@@ -27,29 +27,15 @@ Paprastas interaktyvus išmaniojo laikrodžio vartotojo sąsajos projektas, suku
 1. Atsisiųskite arba klonuokite repozitoriją
 2. Atidarykite `index.html` failą naršyklėje
 
-arba tiesiog apsilankykite: [Jūsų svetainės URL]
+arba tiesiog apsilankykite: (https://juandeag4.github.io/smartwatch-ui/)
 
 ## 🛠️ Sukurta su
 
 - HTML5
 - CSS3
-- JavaScript (Vanilla)
+- JavaScript
 
-## 📱 Ekrano nuotraukos
 
-[Čia galite įdėti savo projekto ekrano nuotraukas]
-
-## 🤝 Kaip prisidėti
-
-1. Fork'inkite projektą
-2. Sukurkite savo Feature branch'ą (`git checkout -b feature/AmazingFeature`)
-3. Commit'inkite pakeitimus (`git commit -m 'Add some AmazingFeature'`)
-4. Push'inkite į Branch'ą (`git push origin feature/AmazingFeature`)
-5. Atidarykite Pull Request
-
-## 📝 Licencija
-
-Šis projektas yra licencijuotas pagal MIT licenciją - žr. [LICENSE](LICENSE) failą detalėms.
 
 ## ✨ Būsimi patobulinimai
 
@@ -63,9 +49,3 @@ arba tiesiog apsilankykite: [Jūsų svetainės URL]
 
 - Muzikos grotuvas kol kas tik imituoja grojimą
 - Sporto duomenys yra statiniai
-
-## 📞 Kontaktai
-
-[Jūsų vardas] - [Jūsų el. paštas]
-
-Projekto nuoroda: [https://github.com/yourusername/your-repo-name](https://github.com/yourusername/your-repo-name)
